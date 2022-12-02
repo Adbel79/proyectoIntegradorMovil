@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="130dp"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Iniciar Sesion"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:translationY="10dp" />
+
+
+    <EditText
+        android:id="@+id/etUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="usuario"
+        android:inputType="textPersonName"
+        android:translationY="150dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="contraseña"
+        android:inputType="textPassword"
+        android:translationY="180dp" />
+
+    <Button
+        android:id="@+id/btnIniciarSesion"
+        android:layout_width="368dp"
+        android:layout_height="58dp"
+        android:paddingLeft="11dp"
+        android:paddingTop="0dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="10dp"
+        android:scrollbarSize="200dp"
+        android:text="aceptar"
+        android:translationX="15dp"
+        android:translationY="200dp" />
+</LinearLayout>
